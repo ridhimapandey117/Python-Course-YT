@@ -47,7 +47,7 @@ print(myList[1:]) #getting values starting from element 1 and onwards
 another_list = ['four', 'five']
 print(myList + another_list) #can combine lists just like that
 
-my_list[0] = 'ALL CAPS'
+myList[0] = 'ALL CAPS'
 print(my_list) #can replace values
 
 myList.append('six') #adds value to the end of the list
@@ -75,9 +75,6 @@ print(letter.lower()) #makes lowercase
 #/////////////////////////////////////
 
 t = (1,2,3)
-
-t = ('one', 2)
-print(t[0])
 
 t = ('a', 'a', 'b')
 print(t.count('a')) #counts how many times 'a' appears in the tuple
